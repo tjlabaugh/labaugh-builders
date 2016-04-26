@@ -1,5 +1,5 @@
 
-# Created by https://www.gitignore.io/api/osx
+# Created by https://www.gitignore.io/api/osx,sass
 
 ### OSX ###
 .DS_Store
@@ -27,3 +27,9 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
+
+### Sass ###
+.sass-cache/
+*.css.map
+
