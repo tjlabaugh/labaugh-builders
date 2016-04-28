@@ -1,0 +1,12 @@
+/* Layout - Container */
+
+.container {
+	width: 85%;
+	margin: 0 auto;
+	background-color: $grey;
+	border: 2px solid $navy;
+}
+
+main {
+	clear: left; //Removes Nav Float
+}
