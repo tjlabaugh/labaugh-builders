@@ -1,8 +1,21 @@
 /* Pages - Index */
 
+section {
+	width: 80%;
+	margin: 0 auto;
+	background-color: $darkgrey;
+}
+
 article {
-	width: 75%;
+	width: 90%;
 	margin: 0 auto;
 	padding: 10px 20px;
 	background-color: pink;
+	line-height: 1.4em;
+	letter-spacing: .05em;
+}
+
+.bold {
+	font-weight: bold;
+	text-transform: uppercase;
 }

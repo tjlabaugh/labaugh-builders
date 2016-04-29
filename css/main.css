@@ -306,10 +306,21 @@ nav ul li a:hover {
   color: #182945; }
 
 /* Pages - Index */
+section {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #a1a1a1; }
+
 article {
-  width: 75%;
+  width: 90%;
   margin: 0 auto;
   padding: 10px 20px;
-  background-color: pink; }
+  background-color: pink;
+  line-height: 1.4em;
+  letter-spacing: .05em; }
+
+.bold {
+  font-weight: bold;
+  text-transform: uppercase; }
 
 /*# sourceMappingURL=main.css.map */
