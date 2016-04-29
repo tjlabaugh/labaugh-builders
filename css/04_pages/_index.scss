@@ -1,21 +1,29 @@
 /* Pages - Index */
 
 section {
-	width: 80%;
+	width: 100%;
 	margin: 0 auto;
-	background-color: $darkgrey;
+	padding: 40px 0;
+	background-color: $navy;
 }
 
 article {
-	width: 90%;
-	margin: 0 auto;
-	padding: 10px 20px;
-	background-color: pink;
+	width: 35%;
+	margin: 10px auto;
+	padding: 10px 40px;
+	background-color: $grey;
+	border: 3px solid $darkgrey;
 	line-height: 1.4em;
 	letter-spacing: .05em;
+	color: $navy;
 }
 
 .bold {
 	font-weight: bold;
 	text-transform: uppercase;
+}
+
+h3 {
+	color: $grey;
+	text-align: center;
 }

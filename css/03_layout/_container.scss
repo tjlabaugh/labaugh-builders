@@ -2,11 +2,13 @@
 
 .container {
 	width: 85%;
+	max-width: 1500px;
 	margin: 0 auto;
-	background-color: $grey;
-	border: 2px solid $navy;
+	position: relative;
 }
 
 main {
-	clear: left; //Removes Nav Float
+	width: 85%;
+	max-width: 1500px;
+	margin: 0 auto;
 }

@@ -4,8 +4,9 @@ nav {
 	display: block;
 	width: 100%;
 	margin: 0;
-	background-color: grey;
-	border-bottom: 2px solid navy;
+	background-color: $navy;
+	border-bottom: 2px solid $darkgrey;
+	border-top: 2px solid $darkgrey;
 	overflow: hidden;
 }
 
@@ -26,7 +27,8 @@ nav ul li a {
 	width: 150px;
 	display: block;
 	padding: 14px 16px;
-	color: $white;
+	background-color: $grey;
+	color: $navy;
 	text-decoration: none;
 	text-align: center;
 	border-left: 2px solid $navy;
@@ -37,6 +39,6 @@ nav ul li:last-child {
 }
 
 nav ul li a:hover {
-	background-color: $white;
-	color: $navy;
+	background-color: $darkgrey;
+	color: $white;
 }
