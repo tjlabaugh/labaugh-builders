@@ -223,10 +223,29 @@ body {
   background-color: #E8E8F0; }
 
 /* Components - Carousel */
-img {
+.sider {
+  width: 80%;
+  height: 400px;
+  margin: 0 auto; }
+
+.slider-viewer {
+  position: relative;
+  overflow: hidden;
+  height: 300px; }
+
+.slider-group {
   width: 100%;
-  height: 300px;
-  background-color: lightpink; }
+  height: 100%;
+  position: relative; }
+
+.slide {
+  width: 100%;
+  height: 100%;
+  display: none;
+  position: absolute; }
+
+.slide:first-child {
+  display: block; }
 
 /* Layout - Container */
 .container {
