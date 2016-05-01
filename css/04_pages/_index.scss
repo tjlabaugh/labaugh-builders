@@ -1,29 +1,31 @@
 /* Pages - Index */
 
-section {
+.slick-slider {
+	margin: 0;
+}
+
+.slider img {
 	width: 100%;
-	margin: 0 auto;
-	padding: 40px 0;
-	background-color: $navy;
+	height: 600px;
+	margin: 0;
 }
 
-article {
-	width: 35%;
-	margin: 10px auto;
-	padding: 10px 40px;
+.link-box figure {
+	width: 20%;
+	height: auto;
+	margin: 0px 10px;
+	padding: 0;
+}
+
+.link-box figcaption {
+	font-family: $header;
 	background-color: $grey;
-	border: 3px solid $darkgrey;
-	line-height: 1.4em;
-	letter-spacing: .05em;
 	color: $navy;
-}
-
-.bold {
-	font-weight: bold;
-	text-transform: uppercase;
-}
-
-h3 {
-	color: $grey;
 	text-align: center;
+	font-size: 1.6em;
+}
+
+.link-box figure img {
+	width: 100%;
+	height: 100%;
 }

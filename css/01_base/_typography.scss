@@ -1,3 +1,47 @@
 /* Base - Typography */
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700italic);
+@import url(https://fonts.googleapis.com/css?family=Courgette);
+@import url(https://fonts.googleapis.com/css?family=Mr+Dafoe);
 
-$logo-font: cursive;
+$logo-font: 'Mr Dafoe', cursive;;
+$body-text: 'Roboto', sans-serif;
+$header: 'Courgette', cursive;
+
+h3 {
+	margin: 0;
+	padding: 20px 0 10px 0;
+	color: $grey;
+	text-align: center;
+	font-family: $header;
+	font-size: 2em;
+}
+
+section {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+	background-color: $navy;
+}
+
+article {
+	width: 50%;
+	margin: 0px auto;
+	padding: 0px 40px;
+	background-color: $grey;
+	border: 3px solid $darkgrey;
+	font-family: $body-text;
+	font-size: 1.1em;
+	line-height: 1.4em;
+	letter-spacing: .05em;
+	color: $navy;
+}
+
+.bold {
+	font-weight: bold;
+	font-style: italic;
+	text-transform: uppercase;
+}
+
+.align-right {
+	text-align: right;
+}

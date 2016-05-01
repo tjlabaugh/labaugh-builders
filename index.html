@@ -11,11 +11,16 @@
 </head>
 <body>
 		<header>
-			<div class=container>
+			<div class="tel-header">
+				<div class="container align-right">
+						<a href="tel:732-330-9907"><img src="img/phone01.png" id="header-img-phone" alt="Call Us" /></a>
+						<a href="tel:732-330-9907" class="tel-num"> 732-330-9907</a>
+				</div>
+			</div>
+			<div class="container-header">
 				<h1>LaBaugh Builders</h1>
-				<h2>What's important to you...</h2>
-				<h2>is important to us!</h2>
-				<a href="tel:732-330-9907" class="tel-num">732-330-9907</a>
+				<h2 id="motto-top">What's important to you...</h2>
+				<h2 id="motto-bottom">is important to us!</h2>
 			</div>
 		</header>
 		<nav>
@@ -28,23 +33,10 @@
 		</nav>
 		<main>
 			<div class="slider">
-				<div class="slide-viewer">
-        			<div class="slide-group">
-            			<div class="slide slide-1">
-             				<img src="img/house01.jpg" alt="LaBaugh Builders Custom Home" />
-            			</div>
-            			<div class="slide slide-2">
-              				<img src="img/house02.jpg" alt="LaBaugh Builders Custom Home"  />
-            			</div>
-            			<div class="slide slide-3">
-            				<img src="img/house03.jpg" alt="LaBaugh Builders Custom Home"  />
-            			</div>
-            			<div class="slide slide-4">
-            				<img src="img/house04.jpg" alt="LaBaugh Builders Custom Home"  />
-            			</div>
-          			</div>
-        		</div>
-        		<div class="slide-buttons"></div>
+				<div><img src="img/house01.jpg" alt="LaBaugh Builders Custom Home" /></div>
+				<div><img src="img/house02.jpg" alt="LaBaugh Builders Custom Home" /></div>
+				<div><img src="img/house03.jpg" alt="LaBaugh Builders Custom Home" /></div>
+				<div><img src="img/house04.jpg" alt="LaBaugh Builders Custom Home" /></div>
 			</div>
 			<section>
 				<h3>About Us</h3>
@@ -53,8 +45,29 @@
 						<span class="bold">LaBaugh Builders LLC</span>, is a full service construction company specializing in new homes and residential renovation. With over 30 years of experience we pride ourselves on quality workmanship and our ability to complete projects promptly and efficiently. Our goal and top priority is to combine your personal aspirations and desires with our vast knowledge and experience to offer you the house of your dreams!
 					</p>
 				</article>
+				<div class="link-box">
+					<figure>
+						<a href="pages/why-choose-us.html">
+							<img src="img/LabaughBuildersLogo.jpg" alt="Why Choose Us?" />
+							<figcaption>Why Choose Us</figcaption>
+						</a>
+					</figure>
+					<figure>
+						<a href="pages/why-choose-us.html">
+							<img src="img/LabaughBuildersLogo.jpg" alt="Why Choose Us?" />
+							<figcaption>Why Choose Us</figcaption>
+						</a>
+					</figure>
+					<figure>
+						<a href="pages/why-choose-us.html">
+							<img src="img/LabaughBuildersLogo.jpg" alt="Why Choose Us?" />
+							<figcaption>Why Choose Us</figcaption>
+						</a>
+					</figure>
+
+				</div>
+				<h3>Our Founder</h3>
 				<article>
-					<h4>Our Founder</h4>
 					<p>
 						As a successful building contractor in New Jersey for over 30 years, Tom LaBaugh established a thriving business based upon the formula:
 					</p>
@@ -65,8 +78,8 @@
 						Tom invites you to take advantage of his knowledge and experience to competently guide you through the residential construction process. Whether towards construction of your new dream home or assisting you with the renovation needs of your current home, Tom will guarantee professionalism and commitment.
 					</p>
 				</article>
+				<h3>Our Building Area</h3>
 				<article>
-					<h4>Our Building Area</h4>
 					<p>
 						As a custom building company, we feel most fortunate with our opportunity to market what we believe to be two of the most elegant areas on the East Coast. The Jersey Shore encompasses the beautiful communities of Bay Head, Mantoloking, Brielle, Sea Girt and Spring Lake. Also in South Carolina we have had the pleasure to design / build gorgeous 'Low Country' style homes in Pawleys Island.
 					</p>
@@ -75,8 +88,12 @@
 					</p>
 				</article>
 			</section>
+			<footer>
+				<div>Icons made by <a href="http://www.flaticon.com/authors/gregor-cresnar" title="Gregor Cresnar">Gregor Cresnar</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+			</footer>
 		</main>
 		<script src='js/jquery-2.2.3.min.js'></script>
+		<script src='js/slick.min.js'></script>
 		<script src='js/slider.js'></script>
 </body>
 </html>

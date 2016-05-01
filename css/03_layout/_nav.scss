@@ -27,18 +27,20 @@ nav ul li a {
 	width: 150px;
 	display: block;
 	padding: 14px 16px;
-	background-color: $grey;
-	color: $navy;
+	background-color: $navy;
+	color: $grey;
 	text-decoration: none;
 	text-align: center;
-	border-left: 2px solid $navy;
+	border-left: 2px solid $darkgrey;
+	font-family: $header;
+	font-size: 1.2em;
 }
 
 nav ul li:last-child {
-	border-right: 2px solid $navy;
+	border-right: 2px solid $darkgrey;
 }
 
 nav ul li a:hover {
-	background-color: $darkgrey;
-	color: $white;
+	background-color: $grey;
+	color: $navy ;
 }
