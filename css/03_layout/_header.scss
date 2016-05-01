@@ -11,7 +11,8 @@ header {
 
 h1 {
 	margin: 0;
-	padding: 10px 0 0 80px;
+	padding: 10px 0 0 0px;
+	padding-left: 20%;
 	font-family: $logo-font;
 	font-size: 5em;
 	text-shadow: 2px 2px 2px $darkgrey;
@@ -24,13 +25,13 @@ h2 {
 	text-shadow: 1px 1px 2px $darkgrey;
 }
 #motto-top {
-	left: 35%;
-	top: 105px;
+	left: 45%;
+	top: 110px;
 }
 
 #motto-bottom {
-	left: 50%;
-	top: 130px;
+	left: 60%;
+	top: 135px;
 }
 
 .tel-num {
@@ -40,7 +41,6 @@ h2 {
 	top: 10px;
 	text-decoration: none;
 	color: $grey;
-	text-shadow: 2px 2px 2px $darkgrey;
 	font-family: $header;
 	font-size: 1em;
 	letter-spacing: .2em;
@@ -58,4 +58,19 @@ h2 {
 	float: left;
 	width: 20px;
 	height: 20px;
+}
+
+#head-logo {
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	width: 180px;
+	height: 180px;
+}
+
+#top-header-text {
+	margin: 0;
+	padding: 10px 0 0 20px;
+	color: $grey;
+	font-size: 0.8em;
 }

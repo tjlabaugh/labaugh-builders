@@ -29,3 +29,31 @@
 	width: 100%;
 	height: 100%;
 }
+
+.tom-labaugh {
+	float: left;
+}
+
+.tom-labaugh img {
+	border: 2px solid $navy;
+	border-radius: 50%;
+}
+
+.tom-text {
+	padding-top: 15px;
+}
+
+#formula {
+	display: block;
+	width: 100%;
+	font-family: $body-text;
+	font-size: 1.4em;
+	line-height: 1.6em;
+	text-align: center;
+	border: 4px solid $navy;
+}
+
+.formula-clear {
+	font-weight: normal;
+	text-transform: none;
+}

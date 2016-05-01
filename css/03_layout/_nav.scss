@@ -34,6 +34,7 @@ nav ul li a {
 	border-left: 2px solid $darkgrey;
 	font-family: $header;
 	font-size: 1.2em;
+	@include transition(background-color 1s, color 1s)
 }
 
 nav ul li:last-child {
@@ -42,5 +43,5 @@ nav ul li:last-child {
 
 nav ul li a:hover {
 	background-color: $grey;
-	color: $navy ;
+	color: $navy;
 }

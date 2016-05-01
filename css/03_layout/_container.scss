@@ -1,5 +1,9 @@
 /* Layout - Container */
 
+.clear {
+	clear: both;
+}
+
 .container {
 	width: 85%;
 	max-width: 1500px;
@@ -7,6 +11,7 @@
 	margin: 0 auto;
 	position: relative;
 }
+
 .tel-header {
 	position: relative;
 	width: 100%;
@@ -21,6 +26,10 @@
 	height: 200px;
 	margin: 0 auto;
 	position: relative;
+}
+
+section {
+	padding-bottom: 40px;
 }
 
 main {
