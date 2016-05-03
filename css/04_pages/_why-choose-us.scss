@@ -32,7 +32,7 @@
 }
 
 .three-c {
-	width: 70%;
+	width: 80%;
 	margin: 50px auto;
 }
 
@@ -50,6 +50,7 @@
 }
 
 .three-c p {
+	width: 80%;
 	margin: 0;
 	padding: 20px;
 	font-family: $body-text;
@@ -60,4 +61,31 @@
 	border-bottom-left-radius: 25px;
 	border-bottom-right-radius: 25px;
 	border-top-right-radius: 25px;
+}
+
+.testimony {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.testimony-block {
+	margin: 0;
+	padding: 0;
+	background-color: $grey;
+	border-radius: 25px;
+}
+
+.testimony p {
+	margin: 0;
+	margin-top: 20px;
+	padding: 30px;
+	font-family: $body-text;
+	color: $navy;
+	font-size: 1.3em;
+	line-height: 1.6em;
+}
+
+.testimony-name {
+	font-family: $header;
+	font-size: 1em;
 }
