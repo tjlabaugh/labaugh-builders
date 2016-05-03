@@ -683,8 +683,7 @@ nav ul li:last-child {
   border-right: 2px solid #a1a1a1; }
 
 nav ul li a:hover {
-  background-color: #E8E8F0;
-  color: #182945; }
+  background-color: #325691; }
 
 /* Pages - Index */
 .slick-slider {
@@ -746,6 +745,11 @@ nav ul li a:hover {
 .formula-clear {
   font-weight: normal;
   text-transform: none; }
+
+/* Pages - Contact */
+#map {
+  width: 400px;
+  height: 400px; }
 
 /* Pages - Why Choose Us */
 .top-img {
