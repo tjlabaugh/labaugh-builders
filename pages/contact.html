@@ -37,33 +37,58 @@
 			<img src='../img/house01.jpg' class="top-img" />
 			<section>
 				<h3>Contact Us!</h3>
-				<div id="map"></div>
-				<div class="contact">
-					<p>
-						Call: <a href="tel:732-330-9907">732-330-9907</a>
-					</p>
-					<p>
-						Fax:
-					</p>
-					<p>
-						Email:
-					</p>
-					<p>
-						Address: <a href="http://maps.google.com/?q=1401 Bay Avenue, 
-						Point Pleasant, NJ 08742" target="_blank">
-						1401 Bay Avenue<br />
-						Point Pleasant, NJ 08742</a><br />
-					</p>
+				<div class="contact-container">
+					<div id="map-container">
+						<div id="map"></div>
+					</div>
+					<div class="contact">
+						<div class="contact-group">
+							<a href="tel:732-330-9907">
+								<img src="../img/phone01.png" />
+							</a>
+							<a href="tel:732-330-9907">
+								<p>732-330-9907</p>
+							</a>
+						</div>
+						<div class="contact-group">
+							<img src="../img/printer.png" />
+							<p>1-732-555-5555</p>
+						</div>
+						<div class="contact-group">
+							<a href="mailto:tjlabaugh@gmail.com">
+								<img src="../img/email.png" />
+							</a>
+							<a href="mailto:tjlabaugh@gmail.com">
+								<p>tjlabaugh@gmail.com</p>
+							</a>
+						</div>
+						<div class="contact-group">
+							<a href="http://maps.google.com/?q=1401 Bay Avenue, Point Pleasant, NJ 08742" target="_blank">
+								<img src="../img/marker.png" />
+							</a>
+							<a href="http://maps.google.com/?q=1401 Bay Avenue, Point Pleasant, NJ 08742" target="_blank">
+								<p>1401 Bay Avenue<br />Point Pleasant, NJ 08742</p>
+							</a>
+						</div>
+					</div>
 				</div>
-				<h3>Professional Project Management</h3>
-				<article>
-					<p>
-						We fully recognize the fact that beginning and monitoring a home construction project can be very overwhelming.  Therefore, to eliminate this concern, <span class="bold">LaBaugh Builders</span> manages every phase of construction in accordance to explicit and thorough guidelines.
-					</p>
-					<p>
-						Beginning with our initial meeting, we will be there to guide you through all the stages of design, planning, obtaining permits, construction, inspections, as well as the final, concluding details. A monthly budget will be provided along with scheduled reports tracking the process of your project. This service offers you the time you need to make important decisions while also providing you the assurance that your project is being completed in accordance with the contract.
-					</p>
-				</article>
+				<div class="form-container">
+					<form action="#" medthod="post">
+						<label for="fname">First Name:</label>
+						<input type="text" name="fname" id="fname" /><br />
+						<label for="lname">Last Name:</label>
+						<input type="text" name="lname" id="lname" /><br />
+						<label for="email">Email:</label>
+						<input type="email" name="email" id="email" /><br />
+						<label for="telNum">Phone Number:</label>
+						<input type="tel" name="telNum" id="telNum" /><br />
+						<label for="subject">Subject:</label>
+						<input type="text" name="subject" id="subject" /><br />
+						<label for="message">Message:</label>
+						<textarea name="message" id="message">Say Hi</textarea><br />
+						<input type="submit" value="Submit" />
+					</form>
+				</div>
 			</section>
 		</main>
 		<footer>
@@ -86,8 +111,9 @@
 				</a><br />
 				<a href="tel:732-330-9907">732-330-9907</a>
 			</p>
-			<div>Icons made by <a href="http://www.flaticon.com/authors/gregor-cresnar" title="Gregor Cresnar">Gregor Cresnar</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
-			<div>Icons made by <a href="http://www.flaticon.com/authors/egor-rumyantsev" title="Egor Rumyantsev">Egor Rumyantsev</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+			<div>
+				Icons made by <a href="http://www.flaticon.com/authors/gregor-cresnar" title="Gregor Cresnar"target="_blank">Gregor Cresnar</a> from <a href="http://www.flaticon.com" title="Flaticon" target="_blank">www.flaticon.com</a>
+			</div>
 		</footer>
 		<script src="../js/map-settings.js"></script>
 		<script async defer 

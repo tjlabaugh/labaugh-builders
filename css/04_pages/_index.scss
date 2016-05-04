@@ -29,8 +29,17 @@
 .link-box figure img {
 	width: 100%;
 	height: 100%;
-	@include transition(opacity 1s);
+	background-color: $grey;
+	@include transition(background-color 1s);
+}
 
+.link-box figure {
+	border: 4px solid $navy;
+	@include transition(border 1s);
+}
+
+.link-box figure:hover {
+	border: 4px solid $light-navy;
 }
 
 .link-box a:hover figcaption {
@@ -38,7 +47,7 @@
 }
 
 .link-box a:hover img {
-	opacity: .7;
+	background-color: $darkgrey;
 }
 
 .tom-labaugh {
