@@ -527,6 +527,7 @@ main {
 /* Layout - Footer */
 footer {
   width: 85%;
+  max-width: 1500px;
   height: auto;
   margin: 0 auto;
   padding: 0;
